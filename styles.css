@@ -129,11 +129,39 @@ footer {
   padding: var(--spacing-sm);
 }
 
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
 /* ==================================================
    COMPONENTS (Reusable styles)
    --------------------------------------------------
    You can add cards, buttons, nav, etc. here later
 ================================================== */
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm) 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 /* Example Button (for future use)
 button {
